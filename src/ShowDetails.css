@@ -1,0 +1,62 @@
+label{
+    left: 20%;
+    background-color: #03245a;
+    padding: 10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    color:white;
+    font-weight: bold;
+}
+.detailArea{
+    overflow: auto;
+    background-color: #dddddd;
+    padding:30px;
+    border-radius: 5px;
+    height: fit-content;
+   display: flex;
+    margin:20px 80px;
+    top:15%;
+    transform: translate(10px, 60px);
+    
+}
+.ratingArea >div{
+    font-family: cursive;
+    font-size: 12px;
+}
+.ratingBtn
+{
+    margin:10px;
+    padding:10px 10px;
+    background-color: #03245a;
+    color: #fff;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    cursor:pointer;
+    border:none;
+}
+.ratingArea{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    left: 30%;
+    top: 10%;
+}
+.mainArea{
+    position: relative;
+    display: flex;
+    flex-direction: column ;
+    transform: translate(10px, 90px);
+    background-color: #dddddd;
+    display: flex;
+    flex-direction: column ;
+    transform: translate(10px, 10px);
+}
+.showDetail{
+    padding:10px 0px ;
+    margin: 10px 0px ;
+    
+}
